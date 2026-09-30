@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AutoPilot</string>
+    <string name="accessibility_description">Monitors the active app UI for user-authorized automation.</string>
+</resources>

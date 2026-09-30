@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical" android:padding="20dp"
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <TextView android:text="AutoPilot"
+            android:textSize="28sp" android:textStyle="bold"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Telegram AI • Screen Monitor • Instagram Workflow"
+            android:layout_marginTop="6dp"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+        <Button android:id="@+id/btnAccessibility"
+            android:text="Open Accessibility Settings"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <EditText android:id="@+id/telegramToken"
+            android:hint="Telegram Bot Token"
+            android:inputType="textPassword"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <EditText android:id="@+id/telegramChatId"
+            android:hint="Telegram Chat ID"
+            android:inputType="text"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <EditText android:id="@+id/aiEndpoint"
+            android:hint="AI endpoint (OpenAI-compatible)"
+            android:text="https://api.openai.com/v1/chat/completions"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <EditText android:id="@+id/aiKey"
+            android:hint="AI API key"
+            android:inputType="textPassword"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <Button android:id="@+id/btnTestTelegram"
+            android:text="Test Telegram"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <Button android:id="@+id/btnStartMonitor"
+            android:text="Start Monitor"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <TextView android:id="@+id/status"
+            android:text="Status: Ready"
+            android:paddingTop="16dp"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>
